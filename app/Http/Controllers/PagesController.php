@@ -28,7 +28,7 @@ class PagesController extends Controller
     }
 
     public function listCustomer(){
-        $titleCusstomers = "2DArray";
+        $titleCusstomers = "Customers";
         $listCustomers = array(
         '0'=>array('id' => 1,'name' => 'Chandaraty','email' => 'chandaraty@example.org'),
 
